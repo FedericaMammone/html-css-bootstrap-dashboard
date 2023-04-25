@@ -1,9 +1,102 @@
-.search-head {
-    width: 75%;
-    margin-left: 20px;
+/* header */
+
+header {
+    height: 80px;
+    background-color: blue;
 }
 
-.icons i {
-    padding: 0 5px;
-   
+
+header img {
+    height: 60px;
+    width: 60px;
 }
+
+.titolo-logo {
+    
+    font-size: 30px;
+}
+
+.col-9 form {
+    margin-top: 20px;
+}
+
+.col-1 i {
+    margin-right: 15px;
+}
+
+.fa-bell {
+    padding-bottom: 2px;
+}
+
+
+
+.container-1{
+  width: 100%;
+  
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.container-1 input#search{
+  width: 100%;
+  height: 40px;
+  
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #616161;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #E5E5E5;
+}
+
+.container-1 .icon{
+  position: absolute;
+  
+  
+  margin-left: 17px;
+  
+  z-index: 1;
+  
+  
+}
+
+
+
+
+
+/* ASIDE */
+
+aside {
+    width: 200px;
+    background-color: blueviolet;
+    
+    height: calc(100vh - 80px)
+}
+
+
+/* MAIN  */
+
+.principale {
+    width: calc(100vw - 200px);
+    background-color: aqua;
+    height: calc(100vh - 80px);
+}
+
+
+
+
+
+/* DEBUG */
+
+[class*="col-"] {
+    min-height: 80px;
+    background-color: pink;
+    border: solid 2px white;
+} 
+
+
