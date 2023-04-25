@@ -72,17 +72,46 @@ header img {
 /* ASIDE */
 
 aside {
-    width: 200px;
-    background-color: blueviolet;
-    
+    width: 180px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051E34;
     height: calc(100vh - 80px)
 }
+
+.btn-group-vertical {
+    margin-top: 20px;
+}
+
+aside button.btn {
+    display: flex;
+
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 0;
+    
+}
+
+button.btn i {
+    margin-right: 20px;
+}
+
+.fa-chart-simple {
+    margin-left: 4px;
+}
+
+.setting {
+    margin-bottom: 20px;
+}
+
+
 
 
 /* MAIN  */
 
 .principale {
-    width: calc(100vw - 200px);
+    width: calc(100vw - 180px);
     background-color: aqua;
     height: calc(100vh - 80px);
 }
