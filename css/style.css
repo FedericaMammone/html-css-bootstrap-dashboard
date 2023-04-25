@@ -2,7 +2,12 @@
 
 header {
     height: 80px;
-    background-color: blue;
+    
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 
@@ -75,7 +80,9 @@ aside {
     width: 180px;
     background-image: url(../img/sidebar-bg.png);
     background-color: #051E34;
-    height: calc(100vh - 80px)
+    height: calc(100vh - 80px);
+    position: fixed;
+    margin-top: 80px;
 }
 
 .btn-group-vertical {
@@ -112,20 +119,62 @@ button.btn i {
 
 .principale {
     width: calc(100vw - 180px);
-    background-color: aqua;
+    background-color: #F8F9FA;
     height: calc(100vh - 80px);
+    margin-top: 80px;
+    margin-left: 180px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
+/* head-main */
+.head-main {
+    height: 110px;
+    background-color: bisque;
+}
 
+
+.Title-sec {
+    margin: 10px;
+}
+
+
+/* sezione principale */
+
+.main-main .row-1 {
+    
+    height: calc(100vh - 190px);
+    
+    width: 65%;
+    padding: 20px;
+    
+}
+
+.main-main .row-2 {
+    height: calc(100vh - 190px);
+    
+    width: 35%;
+    padding: 20px;
+    padding-left: 0;
+    
+}
+
+table img {
+    height: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
 
 
 /* DEBUG */
 
-[class*="col-"] {
+/* [class*="col-"] {
     min-height: 80px;
     background-color: pink;
     border: solid 2px white;
-} 
+}  */
 
 
